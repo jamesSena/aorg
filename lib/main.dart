@@ -1,3 +1,4 @@
+import 'package:aorg/widget/logo.widget.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -23,29 +24,8 @@ class HomePage extends StatelessWidget {
       backgroundColor: Theme.of(context).primaryColor,
       body: ListView(
         children: <Widget>[
-          SizedBox(
-            height: 60,
-          ),
-          Image.asset(
-            "assets/images/aog-white.png", 
-            height: 80,
-          ),
-          SizedBox(
-            height: 10,
-          ),
-          Text(
-            "Álcool ou Gasolina",
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 25,
-              fontFamily: "Big Shoulders Display"
-            ),
-          ), 
-          SizedBox(
-            height: 20,
-          ),
-        ], 
+          Logo(),
+        ],
         
       ),
     );
