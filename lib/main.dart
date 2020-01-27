@@ -23,9 +23,27 @@ class HomePage extends StatelessWidget {
       backgroundColor: Theme.of(context).primaryColor,
       body: ListView(
         children: <Widget>[
-            Image.asset(
-             "assets/images/aog-white.png", 
+          SizedBox(
+            height: 60,
+          ),
+          Image.asset(
+            "assets/images/aog-white.png", 
             height: 80,
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Text(
+            "Álcool ou Gasolina",
+            textAlign: TextAlign.center,
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 25,
+              fontFamily: "Big Shoulders Display"
+            ),
+          ), 
+          SizedBox(
+            height: 20,
           ),
         ], 
         
