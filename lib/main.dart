@@ -32,7 +32,10 @@ class HomePage extends StatelessWidget {
       body: ListView(
         children: <Widget>[
           Logo(),
-          Success(),
+          Success(
+            reset: (){},
+            result: "Compensa Utilizar X",
+          ),
           Input(
             label:"Gasolina",
             ctrl: _gasCtrl,
