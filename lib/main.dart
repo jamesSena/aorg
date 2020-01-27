@@ -1,8 +1,8 @@
-import 'package:aorg/widget/input.widget.dart';
-import 'package:aorg/widget/loading-button.widget.dart';
-import 'package:aorg/widget/logo.widget.dart';
-import 'package:aorg/widget/submit-form.widget.dart';
-import 'package:aorg/widget/success.widget.dart';
+import 'package:aorg/widgets/input.widget.dart';
+import 'package:aorg/widgets/loading-button.widget.dart';
+import 'package:aorg/widgets/logo.widget.dart';
+import 'package:aorg/widgets/submit-form.widget.dart';
+import 'package:aorg/widgets/success.widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_masked_text/flutter_masked_text.dart';
 

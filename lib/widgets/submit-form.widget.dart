@@ -1,4 +1,4 @@
-import 'package:aorg/widget/loading-button.widget.dart';
+import 'package:aorg/widgets/loading-button.widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_masked_text/flutter_masked_text.dart';
 
